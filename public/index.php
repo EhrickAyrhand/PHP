@@ -1,5 +1,6 @@
 <?php
-include 'public\amoeba.php';
-echo $nome;
+$cons = get_defined_constants(true);
+var_dump($cons);
 
 ?>
+

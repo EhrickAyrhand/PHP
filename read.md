@@ -36,4 +36,31 @@ echo $nome;
 # Null
     Retorna Nulo
 
+# Constantes
+    Variavel constante que não pode se alterar o valor ex:
+
+define('NAME', 'Hallana');
+echo NAME;
+
+# Constante magica
+
+<?php
+function teste()
+{
+    echo __FUNCTION__;
+    echo __METHOD__;
+}
+teste();
+?>
+
+# lista constantes
+
+<?php
+$cons = get_defined_constants(true);
+var_dump($cons);
+
+?>
+
+#
+
 
